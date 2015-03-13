@@ -1,0 +1,230 @@
+/*------------------------------------- Allgemein, mehrfaches Auftreten ----------------------------------------------*/
+.list-group {
+    border-radius: 10px;
+}
+
+.list-group-item {
+    padding: 0;
+    border-color: #ff0000;
+}
+
+.centred_box {
+    margin: 20% 12.5%;
+}
+
+.centred_box_no_margin {
+    margin: 15% 10%;
+}
+
+.alert {
+    margin: 10px 20px;
+}
+
+.alert-danger {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.panel-heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.panel-body {
+    text-shadow:
+    -1px -1px 0 #ff0000,
+    1px -1px 0 #ff0000,
+    -1px 1px 0 #ff0000,
+    1px 1px 0 #ff0000;
+    color: #ffffff;
+    background: linear-gradient(234deg, #0000ff, #00ff00, #ffff00, #ffaa00, #ff0000, #aa00ff);
+    animation: AnimationName 58s ease infinite;
+}
+
+/*----------------------------------------------------- Layout -------------------------------------------------------*/
+body {
+    width: 100%;
+    height: 100%;
+    min-width: 450px;
+    overflow: scroll;
+}
+
+.navbar-default {
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.navbar-nav .glyphicon {
+    color: #ffffff;
+}
+
+.navbar img {
+    height: 35px;
+    margin: -7.5px;
+}
+
+.navbar-fixed-bottom {
+    background-color: #ffffff;
+}
+
+#hintergrund {
+    margin: 52px 0 0;
+    background: #66afe9 url("../img/hintergrund.jpg") repeat;
+    position: absolute;
+    min-width: 450px;
+    width: 100%;
+    min-height: calc(100% - 90px);
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+#hintergrund_footer {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+/*------------------------------------------------------ Start -------------------------------------------------------*/
+#start_ueberschrift_box {
+    border: 5px solid #ff0000;
+    background-color: #ff0000;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 70%;
+    margin: 15% auto 15%;
+    min-width: 400px;
+    background-size: 100%;
+}
+
+#bunt {
+    text-shadow:
+    -1px -1px 0 #ff0000,
+    1px -1px 0 #ff0000,
+    -1px 1px 0 #ff0000,
+    1px 1px 0 #ff0000;
+    border-radius: inherit;
+    background: linear-gradient(234deg, #0000ff, #00ff00, #ffff00, #ffaa00, #ff0000, #aa00ff);
+    animation: AnimationName 58s ease infinite;
+    padding: 1px;
+}
+
+#start_ueberschrift_box > a {
+    margin-left: 50px;
+}
+
+#bunt > a {
+    margin-left: 50px;
+    text-shadow: none;
+}
+
+#start_ueberschrift_box h1 {
+    padding: 30px 50px 0;
+}
+
+#start_ueberschrift_box h3 {
+    padding: 0 50px 30px;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0 87%}
+}
+
+#start_ueberschrift_box p {
+    margin-right: 10px;
+    text-shadow: none;
+    color: #000000;
+}
+
+#start_ueberschrift_box p > a {
+    margin: 0;
+    padding: 0 0 2px;
+    border: 0;
+    text-decoration: underline;
+}
+
+/*------------------------------------------------- Informationen ----------------------------------------------------*/
+#hintergrund_informationen h1 {
+    color: #ff0000;
+    margin: 20px;
+    text-align: center;
+}
+
+#hintergrund_informationen {
+    background-color: #ffffff;
+    border: 5px solid #66afe9;
+    border-radius: 5px;
+    float: left;
+}
+
+#hintergrund_informationen ul {
+    margin: 10px;
+    clear: left;
+}
+
+#hintergrund_informationen > .col-md-3 {
+    clear: left;
+    float: left;
+}
+
+#hintergrund_informationen img {
+    width: 100%;
+    max-width: 200px;
+    border: 5px solid #ff0000;
+    border-radius: 5px;
+    margin: 20px 0 20px 20px;
+}
+
+.texte {
+    margin: 20px;
+}
+
+/*--------------------------------------------------- Übersicht ------------------------------------------------------*/
+#hintergrund_uebersicht {
+    text-shadow:
+    -1px -1px 0 #ff0000,
+    1px -1px 0 #ff0000,
+    -1px 1px 0 #ff0000,
+    1px 1px 0 #ff0000;
+    border-radius: inherit;
+    color: #ffffff;
+    background: linear-gradient(234deg, #0000ff, #00ff00, #ffff00, #ffaa00, #ff0000, #aa00ff);
+    animation: AnimationName 58s ease infinite;
+    padding: 20px;
+}
+
+li p a {
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+li a {
+    text-shadow: none;
+}
+
+#rahmen {
+    padding: 20px;
+}
+
+#footer_links {
+    display:block;
+    text-align:left;
+    float:left;
+}
+
+#footer_rechts {
+    display:block;
+    text-align:right;
+}
+
+#footer_rechts a {
+    text-decoration: underline;
+}
